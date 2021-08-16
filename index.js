@@ -35,7 +35,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
      counter2 be better?  
 */
 
-// counter1 code
+// counter1 code start
 function counterMaker() {
   let count = 0;
   return function counter() {
